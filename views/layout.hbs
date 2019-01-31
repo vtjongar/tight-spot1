@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>TightSpot</title>
+    
+    <link rel="stylesheet" href="/css/styles.css">
+  
+  </head>
+  <body>
+
+
+
+
+  <div class="stuff">
+      <h2 class="title"><a href="/">TightSpot</a></h2>
+  <div class="emoji">
+    <img src="../images/tong.png" alt='emoji' width="200" height="200" >
+  </div>
+
+  
+
+
+
+         
+          {{#if currentUser}}
+      
+
+            <div class="userstuff">
+
+            <div class="h"><a href="/">Home</a></div>  
+            <div class="q"><a href="/dilemma/new">Dilemma</a></div>
+            <div class="p"><a href="/user/{{currentUser.id}}">Profile</a></div>
+            <div class="lo"><a href="/user/logout">Log Out</a></div>
+
+
+
+            </div>
+
+
+          {{else}}
+      
+
+            <div class="logsign">
+            <div class="l1"><a href="/user/login" class="l">Log In</a></div>
+            <div><a href="/user/sign-up" class="s">Sign Up</a></div>
+            </div>
+
+
+          {{/if}}
+          </ul>
+          </div>
+
+</div>
+
+
+
+    <main class="container">
+      {{{ body }}}
+    </main> 
+  </body>
+</html>

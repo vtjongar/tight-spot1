@@ -1,0 +1,35 @@
+<p>
+  {{> 'dilemma'}}
+</p>
+
+{{#if answers.length}}
+  {{#each answers}}
+    <div>
+      <div>
+        <span>
+          {{ content }}
+        </span>
+      </div>
+      <div>
+        <a href="/user/{{ author.id }}">{{ author.email }}</a>
+        <span class="dilemma__date">{{ createdAt }}</span>
+        <span class="dilemma_answers">{{ answers.length }} Answers</span>
+      </div>
+    </div>
+  {{/each}}
+{{/if}}
+
+<div>
+  <div>
+    <h4>Add an answer:</h6>
+    <form method="POST" action="/dilemma/{{id}}?_method=PUT">
+      <p>
+        <label for="content"></label>
+        <input type="text" name="content" id="">
+      </p>
+      <p>
+        <input class="btn" type="submit" value="Submit">
+      </p>
+    </form>
+  </div>
+</div>

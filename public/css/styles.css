@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  background-color: #580000;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+
+}
+
+.title {
+
+  margin-top: 75px;
+  display: flex;
+
+  justify-content: center;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.emoji {
+  display: flex;
+
+  justify-content: center;
+}
+
+.logsign {
+
+  margin-top: 125px;
+  display: flex;
+
+  justify-content: center;
+  color: black;
+  
+
+
+}
+
+
+.userstuff {
+
+  margin-top: 60px;
+  display: flex;
+
+  justify-content: center;
+  color: black;
+  margin-bottom: 75px;
+
+
+}
+/* 
+.stuff {
+  margin-right: 200px;
+} */
+
+.l {
+  margin-right: 50px;
+
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 20px; 
+}
+
+.s {
+  border: 3px solid black;
+  padding: 10px;
+
+  border-radius: 20px; 
+}
+
+.q {
+  margin-right: 40px;
+}
+
+.p {
+  margin-right: 40px;
+}
+
+.h {
+  margin-right: 40px;
+}
+
+.box {
+ margin-bottom: 50px;
+  
+  padding: 0px 20px 20px 20px;
+  border-radius: 10px;
+ 
+  font-family: 'Roboto Condensed', sans-serif;
+border-bottom: 3px solid black;
+border-top: 3px solid black;
+}
+
+.box-dilemma {
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.around {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+
+
+}
+
+.dilemmas {
+
+  padding: 5px;
+  border-radius: 10px;
+
+  font-family: 'Roboto Condensed', sans-serif;
+ 
+
+  border-bottom: 3px solid black;
+border-top: 3px solid black;
+}
+
+.box-info {
+
+  margin-top: 20px;
+  color: black;
+}
+
+.login {
+
+
+  display: flex;
+justify-content: center
+}
+
+.login-form {
+
+
+  display: flex;
+
+  justify-content: center;
+  
+}
+
+.h4 {
+  margin-right: 100px;
+}
+
+.newdilemma-container {
+ display: flex;
+ justify-content: center;
+
+}
+a.l:hover {
+  background-color: wheat;
+}
+
+a.s:hover {
+  background-color: wheat;
+}
+
+input.login-btn:hover {
+  background-color: wheat;
+}
+
+.login-password {
+  margin-right: 30px;
+}
+
+.login-email {
+  margin-right: 30px;
+}
+
+.word-email {
+  margin-right: 20px;
+}
+
+.word-password {
+  margin-right: 20px;
+}
+
+.signup {
+
+
+  display: flex;
+justify-content: center;
+}
+
+.signup-form {
+
+
+  display: flex;
+
+  justify-content: center;
+  
+}
+
+.signup-password {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+.stuff {
+  margin-bottom: 100px;
+}
+.signup-email {
+  margin-right: 30px;
+}
+
+.word-email {
+  margin-right: 20px;
+}
+
+.word-password {
+  margin-right: 20px;
+}
+
+.login-button {
+
+  margin-left: 20px;
+}
+
+.signup-button {
+
+
+  margin-left: 20px;
+}
+
+.login-btn {
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color:  #910000; */
+  border-radius: 15px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.signup-btn {
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color: #910000; */
+  border-radius: 15px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.login-btn:active {
+
+
+  box-shadow: 0 5px black;
+}
+
+.l:active {
+
+
+  box-shadow: 0 5px black;
+}
+
+
+.s:active {
+
+
+  box-shadow: 0 5px black;
+}
+
+.box {
+
+}

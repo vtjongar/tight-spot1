@@ -1,0 +1,24 @@
+<div class="around">...Dilemmas Around The World...</div>
+
+{{#if dilemmas}}
+ 
+    {{#each dilemmas}}
+   
+      <div class="box">
+       
+          <a class="box-dilemma" href="/dilemma/{{id}}">
+            {{ content }}
+          </a>
+
+
+        <div class="box-info">
+          <a href="/user/{{ author.id }}">{{ author.email }}</a>
+          <span class="dilemma__date">{{ createdAt }}</span>
+          <span class="dilemma_answers">{{ answers.length }} Answers</span>
+        </div>
+
+
+      </div>
+    {{/each}}
+
+{{/if}}

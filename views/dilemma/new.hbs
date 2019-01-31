@@ -1,0 +1,19 @@
+<section class="form-container">
+  <h4>New Dilemma</h4>
+  <form action="/dilemma" method="post" class="dilemma-form">
+    <div>
+      <textarea name="dilemma[content]" placeholder="Message"></textarea>
+    </div>
+    <div class="">
+      <select name="author" id="author">
+        <option value="" disabled selected>Choose your username</option>
+        {{#each users}}
+          <option value="{{id}}">{{email}}</option>
+        {{/each}}
+      </select>
+    </div>
+    <div>
+      <input type="submit" value="Dilemma" class="btn">
+    </div>
+  </form>
+</section>

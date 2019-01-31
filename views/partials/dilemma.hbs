@@ -1,0 +1,16 @@
+<div>
+  <div>
+    <a href="/dilemma/{{id}}">
+      {{ content }}
+    </a>
+  </div>
+  <div>
+    <a href="/user/{{ author.id }}">{{ author.email }}</a>
+    <span class="dilemma__date">{{ createdAt }}</span>
+    <span class="dilemma_answers">{{ answers.length }} Answers</span>
+    <form class="" action="/dilemma/{{id}}?_method=DELETE" method="POST">
+      <button type="submit" name="button">Delete</button>
+    </form>
+  </div>
+</div>
+
