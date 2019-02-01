@@ -2,7 +2,7 @@
 
 
 ## Description
-Tight Spot is an app where users can compose "dilemmas" and post them to a public feed. After a user posts their dilemma, other users can add answers. This app was designed to be a place for people to let the world know about dilemmas they may have and get real world suggestions and advice from other on what to do about them.
+Tight Spot is an app where users can compose "dilemmas" and post them to a public feed. After a user posts their dilemma, other users can add answers. This app was designed to be a place for people to let the world know about dilemmas they may have and get real world suggestions and advice from others on what to do about them.
 
 ## Example
 ![ScreenShot](public/images/example.png)
