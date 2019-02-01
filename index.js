@@ -42,9 +42,14 @@ app.use(methodOverride("_method"));
 
 
 
-app.use(require("./routes/index.js"));
 
-app.listen(5000, () => console.log("server is running"));
+app.set('port', process.env.PORT || 3000)
+
+app.listen(app.get('port'), () => console.log(`server is running on PORT ${app.get('port')}`));
+
+// app.use(require("./routes/index.js"));
+
+// app.listen(5000, () => console.log("server is running"));
 
 
 // const express = require("express");
