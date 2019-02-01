@@ -123,6 +123,9 @@ border-top: 3px solid black;
 
   border-bottom: 3px solid black;
 border-top: 3px solid black;
+
+display: flex;
+justify-content: center;
 }
 
 .box-info {
@@ -151,11 +154,6 @@ justify-content: center
   margin-right: 100px;
 }
 
-.newdilemma-container {
- display: flex;
- justify-content: center;
-
-}
 a.l:hover {
   background-color: wheat;
 }
@@ -267,6 +265,6 @@ justify-content: center;
   box-shadow: 0 5px black;
 }
 
-.box {
-
+ #newdemm {
+ background-color: black;
 }
